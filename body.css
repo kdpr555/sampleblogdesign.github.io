@@ -1,0 +1,39 @@
+body{
+    border:20px solid #00000055;
+    margin:7% 22%;
+}
+body div{
+    padding: 20px;
+}
+p:nth-of-type(5){
+    margin-top: 10px;
+}
+p:nth-of-type(1),p:nth-of-type(5){
+    letter-spacing: 2px;
+    color:deepskyblue;
+}
+p:nth-of-type(2),p:nth-of-type(6){
+    margin-left: 2px;
+    padding-left: 3px;
+    border-left: 3px solid #00000055;
+}
+p:nth-of-type(4){
+    margin-bottom: 40px;
+}
+hr { overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px; 
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: black;
+    border-width: 0 0 1px 0; 
+    border-radius: 20px;
+}
